@@ -1,5 +1,6 @@
 import "./partials-styles/additional-styling.css"
 import derssIcom from "../assets/dress-svg.svg"
+import { Link } from "react-router"
 
 export const NavBar = () => {
 
@@ -42,12 +43,12 @@ export const NavBar = () => {
             </a>
             </li>
             <li className="nav-item text-center mx-2 mx-lg-1">
-            <a className="nav-link active text-dark" href="#!">
+            <Link to="/customize" className="nav-link active text-dark">
                 <div>
                     <i className="fa-solid fa-person fa-2xl" style={{"color": "#280028"}}></i>
                 </div>
                 Custome
-            </a>
+            </Link>
             </li>
 
         </ul>
