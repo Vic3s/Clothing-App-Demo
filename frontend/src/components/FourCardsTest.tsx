@@ -60,7 +60,7 @@ export const FourCardsTest = () => {
 
     const CliclArrowRight = () => {
         if(arrowRightRef.current){
-            if(carouselIncrement < 2900 ){
+            if(carouselIncrement < 2900){
                 if(carouselImagesRef.current){
                     carouselIncrement += carouselValue;
                     carouselImagesRef.current.style.right = `${carouselIncrement}px`
