@@ -1,0 +1,1 @@
+This is a demo repository for an application me and a colleague of mine are working on, the app represents a clothing picker app based on messurements enterd by the user. Curently only contains frontend. To run the frontend direct to the "frontend" folder in a terminal window and execute command "npm start". 
