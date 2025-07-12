@@ -2,6 +2,8 @@ import "../index.css"
 import { NavBar } from "../partials/NavBar"
 import { IndexCard } from "../components/IndexCard"
 import { FourCards } from "../components/FourCards"
+import { FourCardsTest } from "../components/FourCardsTest"
+
 
 function MainPage() {
 
@@ -15,7 +17,7 @@ function MainPage() {
         <h1 className="fw-bold fs-100 font-style-fjallaone">Seasonal</h1>
       </div>
     </div>
-    <FourCards/>
+    <FourCardsTest/>
     </>
   )
 }

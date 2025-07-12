@@ -8,7 +8,7 @@ export const NavBar = () => {
     <>
     <nav className="navbar navbar-expand-lg navbar-dark gradient-custom" style={{"height": "110px"}}>
     <div className="container">
-        <a className="navbar-brand text-dark" href="#">Home</a>
+        <Link className="navbar-brand text-dark" to="/">Home</Link>
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
