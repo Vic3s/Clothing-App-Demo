@@ -11,9 +11,11 @@ import "../styles/four-cards.css"
 
 export const FourCards = () => {
 
+    // This component is the predecessor of the cards carousel wheel and 
+    // is kept here in case of any desire for reuse and resycle of the components structure. 
+
     const womanChoice = useRef(null);
     const manChoice = useRef(null);
-    let carouselValue = 0;
 
     const ChoiceStyling = (choice1: any, choice2: any) => {
         if(choice1 != null && choice2 != null){
