@@ -8,8 +8,30 @@
   --mdb-btn-hover-bg: transparent;
   --mdb-btn-active-bg: transparent;
 }
-
 .dress-icon{
   width: 21px;
   height: 21px;
+}
+.nav-expand-menu-inactive{
+  visibility: hidden;
+}
+.nav-expand-menu-active{
+  width: 100%;
+  background-color: white;
+  visibility: visible;
+}
+
+.nav-card-item {
+  width: 22rem;
+  height: 30rem;
+}
+
+.nav-card-item img{
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.container a{
+  height: 110px;
 }
